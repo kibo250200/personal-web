@@ -1,0 +1,136 @@
+body {
+  /*backround web*/
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #0078d7;
+}
+.navbar {
+  /*backround navbar*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+.navbar a {
+  /*warna font di navbar*/
+  color: white;
+  text-decoration: none;
+  padding: 16px 16px;
+  transition: background-color 0.3s;
+}
+.navbar a:hover {
+  /*warna saat ingin di klik*/
+  background-color: #575757;
+}
+.navbar .logo {
+  /*font my profil*/
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar .menu {
+  /*spasi pada menu bar*/
+  display: flex;
+  gap: 15px;
+}
+.header {
+  /*tulisan di bawah navbar*/
+  text-align: center;
+  padding: 50px;
+  background-color: #0078d7;
+  color: white;
+}
+.header h1 {
+  /*ukuran font tulisan dibwh navbar*/
+  margin: 0;
+  font-size: 36px;
+}
+.header p {
+  /*Your one-stop solution to know all about m*/
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.card h3 {
+  margin: 0 0 10px;
+}
+.card p {
+  margin: 0;
+  color: #666;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+/* CSS Reset */
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card h2 {
+  margin: 10px;
+  color: black;
+}
+/*contact*/
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+.icon.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.icon.email {
+  background-color: #0072c6;
+}
+
+.icon.whatsapp {
+  background-color: #25d366;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
